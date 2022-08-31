@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+}
+
+.left-container.upper-container{
+    flex: 40%;
+}
+.left-container.lower-container{
+    flex: 60%;
+}
+.split {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+}
+  
+.left {
+    width: 20%;
+    left: 0;
+    background-color: rgba(175, 251, 170, 0.566);
+}
+  
+.right {
+    width: 80%;
+    right: 0;
+    
+}
+
+
+#preloder{
+    background: #000 url("Nv2.gif") no-repeat center center;
+    background-size: auto;
+    height:100vh ;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}

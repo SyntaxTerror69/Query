@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:  #1e1c2a;
+    align-items: center;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+
+}
+:root {
+    --main-color: #ff702a;
+    --text-color: #fff;
+    --bg-color: #1e1c2a;
+    --big-font: 5rem;
+    --h2-font: 2.25rem;
+    --p-font: 0.9rem;
+
+}
+.logo {
+    color: var(--main-color);
+    font-weight: 600;
+    font-size: 2.4rem;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 170px;
+    background: var(--bg-color);
+
+}
+
+
+.box {
+    position: relative;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #feeee7;
+    padding: 20px;
+    border-radius: 0.1rem;
+
+
+}
+.box .bx {
+    background: var(--main-color);
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0px;
+    padding: 0px 10px;
+    border-radius: 0 0.5rem 0 0.5rem;
+}
+#menu-icon {
+    font: 2 rem;
+    cursor: pointer;
+    display: grid;
+
+}.menu-conatiner {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minimax(220px, left));
+    grid-gap: 1.5rem;
+    align-items: center;
+}
+.box {
+    position: relative;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #feeee7;
+    padding: 20px;
+    border-radius: 0.1rem;
+
+
+}
+.container-fluid{
+    position: relative;
+}
+.container-fluid h4{
+   color: var(--main-color);
+}
